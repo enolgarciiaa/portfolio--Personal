@@ -1275,141 +1275,161 @@ ul {
   
   /* Móviles (hasta 480px) */
   @media (max-width: 480px) {
-    
-    .logo-enol {
-      width: 150px;
-      margin-left: 40px;
+    /* Footer */
+    .footer {
+      padding: 1.5rem 0.5rem;
     }
-
-    header{
-        width: 100%;
-        height: 950px;
+  
+    .footer-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
     }
-
+  
+    .footer-nav {
+      flex-direction: column;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    .footer-social {
+      display: flex;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+  
+    /* General */
 
     .header-container{
-        background-size: cover;
-        background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
     }
 
-   
-  
+    .example-2{
+      margin-top: 20px;
+    }
+
     .title h1 {
-        margin-top: 200px;
-        font-size: 2rem;
+      font-size: 1.9rem;
     }
   
     .title p {
-      font-size: 1rem;
+      font-size: 1.2rem;
     }
   
-    .title button {
-      font-size: 0.9rem;
-      padding: 10px 18px;
+    .title button,
+    .button-about {
+      width: 50%;
+      font-size: 1.1rem;
     }
+  
+    /* About */
 
-    /*****************About***********************/
     .about-container{
-        margin-top: 100px;
+      margin-top: 300px;
     }
 
     .about-container h2{
-        font-size: 3.5rem;
+      font-size: 3rem;
     }
-
-    .about{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 100px;
+    .about {
+      flex-direction: column;
     }
-
-    .text-about{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: justify;
-        width: 80%;
+  
+    .text-about,
+    .img-about-container {
+      width: 90%;
     }
-    
-    .text-about h3{
-        font-size: 2rem;
+  
+    .text-about h3 {
+      font-size: 2rem;
+      text-align: center;
     }
-      
-    .text-about p{
-        margin-left: 0px;
-        margin-top: 50px;
-        word-spacing: 10px;
-        letter-spacing: 1px;
-        line-height: 1.8;
-        font-size: 0.9rem;
+  
+    .text-about p {
+      margin-left: 0;
+      font-size: 1rem;
     }
-      .img-about-container{
-        width: 80%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 50px;
+  
+    .img-about-container img {
+      width: 100%;
+      height: auto;
     }
-    
-      .img-about-container img{
-        width: 100%;
-        height: 100%;
+  
+    /* Servicios */
+    .services-container {
+      flex-direction: column;
+      gap: 50px;
+      height: auto;
+      padding: 0;
     }
-
-    /***********Services**********************/
 
     .titulo-services{
-        font-size: 3rem;
-        color: white;
-        margin-top: 200px;
-        display: flex;
-        justify-content: center;
-        width: 100%;
-        background-color: black;
+      font-size: 3rem;
+    }
+  
+    .card-services {
+      margin-top: 50px;
+    }
+  
+    /* Formulario */
+
+    .contacto-container{
+      height: 900px;
     }
 
-    
-    .services-container{
-      display: flex;
+
+    .form {
+      width: 90%;
+      height: auto;
+    }
+  
+    .flex {
       flex-direction: column;
-      width: 100%;
-      height: 1750px;
-      justify-content: center;
-      align-items: center;
-      background-color: black;
-      gap: 0px;
     }
-   
-
-
-    /*******************Projects************************/
+  
+    /* Proyectos */
 
     .projects-container{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 200px;
-        padding: 20px;
-    }
-    
-    .projects-container h2{
-        font-size: 3rem;
-    }
-     
-      
-    .parent {
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        grid-template-rows: repeat(6, 1fr);
-        gap: 8px;
-        margin-top: 200px;
-        width: 100%;
-        height: 500px;
+      margin-top: 50px;
     }
 
-}
+    .projects-container h2{
+      font-size: 3rem;
+    }
+    .parent {
+      grid-template-columns: 1fr;
+      grid-template-rows: repeat(4, 200px);
+      height: auto;
+    }
+  
+    .div1,
+    .div2,
+    .div3,
+    .div4 {
+      grid-column: auto;
+      grid-row: auto;
+      height: 200px;
+    }
+
+
+    .herrramientas-container{
+      width: 100%;
+      height: 900px;
+      margin-top: 50px;
+      background-color: black;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  .herrramientas-container h2{
+      color: white;
+      font-size: 2rem;
+      margin-top: 100px;
+  }
+  }
+  
 
   
   
