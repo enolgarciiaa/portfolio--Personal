@@ -2,13 +2,16 @@
 <html lang="en">
 	<head>
 		<title>Enol García Heres</title>
-	
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="author" content="">
-		<meta name="keywords" content="">
-		<meta name="description" content="">
+		<meta name="author" content="Enol García Heres">
+		<meta name="keywords" content="Enol García Heres, desarrollador web, desarrollador frontend, desarrollador full stack, portfolio desarrollador web, diseño web, desarrollo web, HTML, CSS, JavaScript, React, proyectos web, UX/UI, desarrollo a medida, páginas web profesionales, programación web, desarrollo frontend, desarrollo backend">
+		<meta name="description" content="Soy Enol García Heres, desarrollador web con enfoque en frontend y full stack. Diseño y desarrollo páginas web modernas, funcionales y adaptadas a cada cliente. Descubre mis proyectos, herramientas y servicios.">
+
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Birthstone&family=Boldonse&family=Chewy&family=Cinzel:wght@400..900&family=DM+Serif+Text:ital@0;1&family=Fustat:wght@200..800&family=Imperial+Script&family=Inspiration&family=Knewave&family=Mr+Dafoe&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Permanent+Marker&family=Prata&family=Roboto+Slab:wght@100..900&family=Rubik+Dirt&family=Rubik+Glitch&display=swap" rel="stylesheet">
 		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		
@@ -17,7 +20,7 @@
 	<body>
 	
 	
-		<header>
+		<header id="home">
 			<section class="header-container">
 				<nav id="navbar">
 					<div><img src="images/logo-enol.png" alt="logo-enol" class="logo-enol"></div>
@@ -34,11 +37,11 @@
 							<li class="menu-item"><a href="#services" class="nav-link" data-effect="Services">Services</a></li>
 							<li class="menu-item"><a href="#projects" class="nav-link" data-effect="Projects">Projects</a></li>
 							<li class="menu-item"><a href="#latest-blog" class="nav-link" data-effect="Blog">Blog</a></li>
-							<li class="menu-item"><a href="#contact" class="nav-link" data-effect="Contact">Contact</a></li>
+							<li class="menu-item"><a href="#contact-section" class="nav-link" data-effect="Contact">Contact</a></li>
 						</ul>
 					</div>
 
-					<ul class="example-2" id="Home">
+					<ul class="example-2" >
 						<li class="icon-content">
 						  <a
 							data-social="whatsapp"
@@ -124,7 +127,7 @@
 				<div class="title">
 					<h1>Hi! I'm Enol García Heres <br> A Full Stack Developer</h1>
 					<p>Trust is built by doing things right.</p>
-					<button type="button">Let's talk!</button>
+					<button type="button" id="contact">Let's talk!</button>
 				</div>
 			</section>
 		</header>
@@ -132,12 +135,12 @@
 		<main>
 			<section class="about-container" id="about">
 				
-				<h2>ABOUT</h2>
+				<h2>About</h2>
 				<div class="about">
 					<div class="text-about">
 						<h3>Who am I?</h3>
 						<p>I am committed to a job well done, with a proactive attitude and a focus on achieving quality results. I fully invest in each project, paying attention to detail and maintaining a constant focus on improvement. I enjoy taking on new challenges and am not content with just doing what I can: I like to go the extra mile, provide real value, and continue developing both professionally and personally. I work with enthusiasm, seriousness, and great motivation, both independently and in a team.</p>
-						<button type="button" class="button-about">Let's talk!</button>
+						<button type="button" class="button-about" id="contact2">Let's talk!</button>
 					</div>
 					
 					<div class="img-about-container">
@@ -145,6 +148,12 @@
 					</div>
 
 				</div>
+			</section>
+
+			<section class="frase-motivadora">
+				
+				<h2>“The way to get started is to stop talking and start doing.”</h2>
+
 			</section>
 
 			<div class="titulo-services">
@@ -318,30 +327,30 @@
 				</div>
 			</section>
 
-			<section class="contacto-container" id="contact">
+			<section class="contacto-container" id="contact-section">
 				
-				<form class="form" action="https://formspree.io/f/xrbplnvb" method="post">
-					<h3 class="title-form">Do you have a project in mind? Let's talk.</h3>
+				<form class="form" action="https://formsubmit.co/enolgarciiaa@gmail.com" method="post">
+					<h3 class="title-form" id="contact-section2">Do you have a project in mind? Let's talk.</h3>
 					<p class="message">Good ideas start with a conversation. Shall we begin? </p>
 						<div class="flex">
 						<label>
-							<input class="input" name="Firstname" type="text" placeholder="" required="">
+							<input class="input" name="Firstname" type="text" autocomplete="given-name" placeholder="" required>
 							<span>Firstname</span>
 						</label>
 				
 						<label>
-							<input class="input" name="Lastname" type="text" placeholder="" required="">
+							<input class="input" name="Lastname" type="text" autocomplete="family-name" placeholder="" required>
 							<span>Lastname</span>
 						</label>
 					</div>  
 							
 					<label>
-						<input class="input" name="Email" type="email" placeholder="" required="">
+						<input class="input" name="Email" type="email" autocomplete="email" placeholder="" required>
 						<span>Email</span>
 					</label> 
 						
 					<label>
-						<input class="input" name="Phone" type="tel" placeholder="" required="">
+						<input class="input" name="Phone" type="tel" autocomplete="tel" placeholder="" required>
 						<span>Phone</span>
 					</label>
 					<label>
@@ -357,7 +366,7 @@
 			<div class="footer-container">
 			  <p class="footer-name">© 2025 Enol García Heres</p>
 			  <nav class="footer-nav">
-				<a href="#Home">Home</a>
+				<a href="#home">Home</a>
 				<a href="#about">About</a>
 				<a href="#services">Services</a>
 				<a href="#projects">Projects</a>
@@ -449,5 +458,11 @@
 		<script src="js/navbar.js"></script>
 		<script src="js/formulario.js"></script>
 		<script src="js/cursor.js"></script>
+		<script src="js/nav-fixed.js"></script>
+		<script src="js/animaciones.js"></script>
+		<script src="js/contacto.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+		
 	</body>
 </html>
