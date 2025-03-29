@@ -12,6 +12,7 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Birthstone&family=Boldonse&family=Chewy&family=Cinzel:wght@400..900&family=DM+Serif+Text:ital@0;1&family=Fustat:wght@200..800&family=Imperial+Script&family=Inspiration&family=Knewave&family=Mr+Dafoe&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Permanent+Marker&family=Prata&family=Roboto+Slab:wght@100..900&family=Rubik+Dirt&family=Rubik+Glitch&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer">
 		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		
@@ -32,16 +33,16 @@
 
 					<div class="top-menu" id="navigation">
 						<ul class="menu-list">
-							<li class="menu-item active"><a href="#home" data-effect="Home">Home</a></li>
-							<li class="menu-item"><a href="#about" class="nav-link" data-effect="About Me">About</a></li>
-							<li class="menu-item"><a href="#services" class="nav-link" data-effect="Services">Services</a></li>
-							<li class="menu-item"><a href="#projects" class="nav-link" data-effect="Projects">Projects</a></li>
-							<li class="menu-item"><a href="#latest-blog" class="nav-link" data-effect="Blog">Blog</a></li>
-							<li class="menu-item"><a href="#contact-section" class="nav-link" data-effect="Contact">Contact</a></li>
+							<li class="menu-item active"><a href="#home" data-effect="Home"><i class="fas fa-house"></i> Home</a></li>
+							<li class="menu-item"><a href="#about" class="nav-link" data-effect="About Me"><i class="fas fa-user"></i> About</a></li>
+							<li class="menu-item"><a href="#services" class="nav-link" data-effect="Services"><i class="fas fa-concierge-bell"></i> Services</a></li>
+							<li class="menu-item"><a href="#projects" class="nav-link" data-effect="Projects"><i class="fas fa-briefcase"></i> Projects</a></li>
+							<li class="menu-item"><a href="#latest-blog" class="nav-link" data-effect="Blog"><i class="fas fa-blog"></i> Blog</a></li>
+							<li class="menu-item"><a href="#contact-section" class="nav-link" data-effect="Contact"><i class="fas fa-envelope"></i> Contact</a></li>
 						</ul>
 					</div>
 
-					<ul class="example-2" >
+					<ul class="example-1" >
 						<li class="icon-content">
 						  <a
 							data-social="whatsapp"
@@ -144,10 +145,11 @@
 					</div>
 					
 					<div class="img-about-container">
-						<img src="images/img-about.png" alt="imagen ia programador">
+						<img src="images/about1.jpg" alt="imagen libreta diseño web">
 					</div>
-
 				</div>
+
+				
 			</section>
 
 			<section class="frase-motivadora">
@@ -370,8 +372,8 @@
 				<a href="#about">About</a>
 				<a href="#services">Services</a>
 				<a href="#projects">Projects</a>
-				<a href="#contacto">Blog</a>
-				<a href="#contact">Contact</a>
+				<a href="#">Blog</a>
+				<a href="#contact-section">Contact</a>
 			  </nav>
 			  
 			  <ul class="example-2" id="Home">
@@ -454,17 +456,14 @@
 			</div>
 		</footer>
 		  
-
-
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
-
+		<a href="#home" class="scroll-to-top" id="scrollToTop">
+			<i class="fas fa-arrow-up"></i>
+		</a>
 		<script src="js/navbar.js"></script>
 		<script src="js/formulario.js"></script>
 		<script src="js/cursor.js"></script>
 		<script src="js/contacto.js"></script>
-		<script src="js/animaciones.js"></script>
-		<script src="js/nav-fixed.js"></script>
+		<script src="js/menu.js"></script>
 		
 	</body>
 </html>
