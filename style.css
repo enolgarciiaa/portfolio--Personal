@@ -398,7 +398,7 @@ ul {
 
   /**********************Frase-motivadora***************************/
 
-  .frase-motivadora{
+  .frase-motivacion{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -409,7 +409,7 @@ ul {
     margin-top: 100px;
   }
 
-  .frase-motivadora h2{
+  .frase-motivacion h2{
     color: white;
     font-size: 2.5rem;
     text-shadow:
@@ -1203,12 +1203,12 @@ ul {
 
       /*Frase motivadora*/
 
-      .frase-motivadora{
+      .frase-motivacion{
         height: 1000px;
         margin-top: 40px;
       }
   
-      .frase-motivadora h2{
+      .frase-motivacion h2{
         width: 90%;
         text-align: center;
         font-size: 3.5rem;
@@ -1409,11 +1409,11 @@ ul {
  
     /*Frase motivadora*/
 
-    .frase-motivadora{
+    .frase-motivacion{
       height: 1500px;
     }
 
-    .frase-motivadora h2{
+    .frase-motivacion h2{
       width: 90%;
       text-align: center;
       font-size: 3.5rem;
@@ -1632,11 +1632,11 @@ ul {
   
     /*Frase motivadora*/
 
-    .frase-motivadora{
+    .frase-motivacion{
       height: 1500px;
     }
 
-    .frase-motivadora h2{
+    .frase-motivacion h2{
       text-align: center;
       font-size: 2.5rem;
     }
@@ -1904,11 +1904,11 @@ ul {
 
     /*Frase motivadora*/
 
-    .frase-motivadora{
+    .frase-motivacion{
       height: 900px;
     }
 
-    .frase-motivadora h2{
+    .frase-motivacion h2{
       text-align: center;
       font-size: 1.5rem;
     }
