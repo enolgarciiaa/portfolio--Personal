@@ -13,6 +13,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Agbalumo&family=Birthstone&family=Boldonse&family=Chewy&family=Cinzel:wght@400..900&family=DM+Serif+Text:ital@0;1&family=Fustat:wght@200..800&family=Imperial+Script&family=Inspiration&family=Knewave&family=Mr+Dafoe&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Permanent+Marker&family=Prata&family=Roboto+Slab:wght@100..900&family=Rubik+Dirt&family=Rubik+Glitch&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+		<link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 		<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		
@@ -125,7 +126,7 @@
 				</nav>	
 				
 		
-				<div class="title">
+				<div class="title" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-out">
 					<h1>Hi! I'm Enol García Heres <br> A Full Stack Developer</h1>
 					<p>Trust is built by doing things right.</p>
 					<button type="button" id="contact">Let's talk!</button>
@@ -138,13 +139,13 @@
 				
 				<h2>About</h2>
 				<div class="about">
-					<div class="text-about">
+					<div class="text-about" data-aos="fade" data-aos-delay="300" data-aos-duration="1">
 						<h3>Who am I?</h3>
 						<p>I am committed to a job well done, with a proactive attitude and a focus on achieving quality results. I fully invest in each project, paying attention to detail and maintaining a constant focus on improvement. I enjoy taking on new challenges and am not content with just doing what I can: I like to go the extra mile, provide real value, and continue developing both professionally and personally. I work with enthusiasm, seriousness, and great motivation, both independently and in a team.</p>
 						<button type="button" class="button-about" id="contact2">Let's talk!</button>
 					</div>
 					
-					<div class="img-about-container">
+					<div class="img-about-container" data-aos="fade" data-aos-delay="300" data-aos-duration="3">
 						<img src="images/about1.jpg" alt="imagen libreta diseño web">
 					</div>
 				</div>
@@ -154,7 +155,7 @@
 
 			<section class="frase-motivadora">
 				
-				<h2>“The way to get started is to stop talking and start doing.”</h2>
+				<h2 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000" data-aos-easing="ease-out">“The way to get started is to stop talking and start doing.”</h2>
 
 			</section>
 
@@ -459,6 +460,9 @@
 		<a href="#home" class="scroll-to-top" id="scrollToTop">
 			<i class="fas fa-arrow-up"></i>
 		</a>
+
+		<script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+		<script src="js/animacionesaos.js"></script>
 		<script src="js/navbar.js"></script>
 		<script src="js/formulario.js"></script>
 		<script src="js/cursor.js"></script>
