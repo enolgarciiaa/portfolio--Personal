@@ -611,15 +611,54 @@ ul {
 
     
 .div1 {
-    grid-column: span 2 / span 2;
-    grid-row: span 6 / span 6;
-    background-image: url(images/proceso1.gif);
-    background-size: cover;
-    background-position: center;
-    transition: transform 0.4s ease;
-    box-shadow: 0 60px 120px rgba(0, 0, 0, 0.45);
-    border-radius: 20px;
+  position: relative; /* necesario para posicionar el texto */
+  grid-column: span 2 / span 2;
+  grid-row: span 6 / span 6;
+  background-image: url(images/Beeagencymkt.png);
+  background-size: cover;
+  background-position: center;
+  transition: transform 0.4s ease;
+  box-shadow: 0 60px 120px rgba(0, 0, 0, 0.45);
+  border-radius: 20px;
+  overflow: hidden; /* por si acaso */
 }
+
+.link-card {
+  display: contents; /* hace que no afecte al grid layout */
+  text-decoration: none;
+  color: inherit;
+}
+
+.overlay-text {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  right: 20px;
+  background: linear-gradient(180deg, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.9) 100%);
+  padding: 25px 30px;
+  border-radius: 16px;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.6);
+  backdrop-filter: blur(6px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.overlay-text h3 {
+  font-size: 2.4rem;
+  margin-bottom: 10px;
+  font-family: "Knewave", system-ui;
+  color: #ffdc3f; /* Amarillo llamativo para resaltar el título */
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+}
+
+.overlay-text p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #f2f2f2;
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
 
 .div2 {
   grid-column: span 3 / span 3;
